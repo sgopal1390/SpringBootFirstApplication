@@ -28,7 +28,7 @@ public class ExecutorInvokeAll {
 
 		}
 
-		// returns only after all tasks are complete
+		// returns only after all tasks are complete=============
 		List<Future<Integer>> resultFuture = executorService.invokeAll(callableList);
 		
 		// Prints 5050 all through
