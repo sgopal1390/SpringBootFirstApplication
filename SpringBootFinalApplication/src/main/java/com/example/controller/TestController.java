@@ -63,8 +63,7 @@ public class TestController {
 	
 	@GetMapping("/sayHello")
 	public String sayHello(){
-		return "Hello";
-	}
+		return "Hello java";
 	
 
 }
